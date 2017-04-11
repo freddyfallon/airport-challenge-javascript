@@ -27,4 +27,5 @@ describe('Airport', function(){
   it('can check for stormy conditions', function(){
     expect(airport.isStormy()).toBeFalsy();
   });
+  
 });
