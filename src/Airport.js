@@ -1,9 +1,6 @@
-var Airport = function() {};
+'use strict';
+function Airport() {};
 
-  Airport.prototype.planes = function () {
-    var planes = [];
-  };
-
-Airport.prototype.landPlane = function (plane) {
-  planes.push(plane);
+Airport.prototype.planes = function () {
+  return [];
 };
